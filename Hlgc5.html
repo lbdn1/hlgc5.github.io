@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>初三五班</title>
+		<style>
+			h2 {
+				animation: ani 2s linear 0s infinite;
+			}
+			h2:hover{
+				animation-play-state: paused;
+			}
+			.box1{
+				width: 100px;
+				height: 100px;
+				background-image: url("hlg.jpeg");
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+			}
+			h1{
+				color:darkgreen;
+				font-family: 汉仪文黑-85W;
+			}
+			p{
+				font-family: 汉仪文黑-85W;
+			}
+			@keyframes ani {
+				0%{
+					background-color: red;
+				}
+				25%{
+					background-color: blue;
+				}
+				50%{
+					background-color: green;
+				}
+				75%{
+					background-color: blue;
+				}
+				100%{
+					background-color: red;
+				}
+			}
+		</style>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			body{
+				padding-top: 50px;
+				font-size: 15px;
+			}
+			
+			li{
+				list-style: none;
+			}
+			
+			div{
+				text-align: center;
+			}
+			.father{
+				display: inline-block;
+				position: relative;
+				padding: 10px 20px;
+				background-color: lightseagreen;
+			}
+			.son{
+				display: none;
+				position: absolute;
+				background-color: aquamarine;
+				top: 40px;
+				left: 10px;
+				padding: 5px;
+			}
+			.son>li{
+				padding: 5px;
+			}
+			.son li:hover{
+				background-color: lightseagreen;
+				color: greenyellow;
+			}
+			.father:hover .son{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<li class="father">五班wiki
+			<ul class="son">
+				<li>班级成员</li>
+				<li>任课教师</li>
+				<li>五班名梗</li>
+			</ul>
+			</li>
+			<li class="father">新五班日报社
+			<ul class="son">
+				<li>简介</li>
+				<li>各部门介绍</li>
+				<li>关于凯伦帝国日报社</li>
+			</ul>
+			</li>
+			<li class="father">凯伦科技
+			<ul class="son">
+				<li>简介</li>
+				<li>成就一览</li>
+				<li>梦幻联动</li>
+			</ul>
+			</li>
+		</div>
+		<div class="box1"></div>
+		<h1 align="center">这里是关于育新华电附中2021届五班的网页</h1>
+		<h2 align="center">现在正处于开发阶段</h2>
+		<p>首都师范大学附属育新教育集团华电附中<br />始建于1958年的公立初中学校</p>
+		<img  src="jx1.webp" alt="军训的孩子" width="500px" title="军训的孩子"/>
+		<img  src="jx2.webp" alt="军训的孩子" width="500px" title="军训的孩子"/>
+		<img  src="jx3.webp" alt="军训的孩子" width="500px" title="军训的孩子"/>
+		<img  src="jx4.webp" alt="军训的孩子" width="500px" title="军训的孩子"/>
+		<video src="五班月总结.mp4" width="1000px" title="五班优秀孩子制作视频belike" controls="controls"></video>
+		<hr color="green" width="300px" size="20px">
+		<hr color="yellow" width="300px" size="20px">
+		<h6 align="center">本网页由凯伦科技有限公司提供</h6>
+		<img  src="awei.webp" alt="作者画像" width="200px" title="作者画像"/>
+		<a href="https://space.bilibili.com/515643569">
+			<h6 align="center">给作者投个币</h6>
+		</a>
+	</body>
+</html>
